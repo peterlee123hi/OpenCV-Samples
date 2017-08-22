@@ -3,7 +3,7 @@ import numpy as np
 
 camera = cv2.VideoCapture(0)
 
-query = cv2.imread('images/sign.jpg', 0)
+query = cv2.imread('images/book.jpg', 0)
 sift = cv2.xfeatures2d.SIFT_create()
 bf = cv2.BFMatcher(cv2.NORM_HAMMING, crossCheck = True)
 
